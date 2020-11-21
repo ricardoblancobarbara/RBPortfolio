@@ -32,14 +32,33 @@
                     </div>
                     <div class="col-8">
                         <nav>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#about">About me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        </nav>
+                        <!-- <nav >
                             <ul>
-                                <a href="#about"><li>About me</li></a>
-                                <a href="#skills"><li>Skills</li></a>
-                                <a href="#experience"><li>Experience</li></a>
-                                <a href="#projects"><li>Projects</li></a>
-                                <a href="#contact"><li>Contact Me</li></a>
+                                <li><a href="#about">About me</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
-                        </nav>    
+                        </nav>     -->
                     </div>
                     <div class="col">
                     </div>
@@ -52,16 +71,32 @@
     <section id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                </div>
+                <div class="col"></div>
                 <div class="col-8">
                     <h1>About me</h1>
-                    <h3>Resume</h3>
-                    <input type="submit" value="Download Resume"><br>
-                    <button>Download Resume</button>
-
-                    <a href="https://www.linkedin.com/in/rblancobarbara/" target="_blank">Linkedin</a>
-                    <a href="https://github.com/ricardoblancobarbara" target="_blank">GitHub</a>
+                    <h3>Me, myself and I</h3>
+                    <div class="col-6">
+                        <div class="card mb-3">
+                            <img src="/assets/RNB_profile_picture.png" alt="Ricardo Blanco">
+                            <figcaption>Fig.1 - Me, in the wildnerss.</figcaption>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div id="about-me">
+                            <p>Hi,<br>                            
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        
+                            <div>
+                                <a href="/assets/RNB_Resume.doc" download>Resume</a>
+                                <a href="/assets/RNB_Resume.doc" download>Cover Letter</a>
+                                <a href="/assets/RNB_Resume.doc" download>References</a>
+                                <a href="https://www.linkedin.com/in/rblancobarbara/" target="_blank">Linkedin</a>
+                                <a href="https://github.com/ricardoblancobarbara" target="_blank">GitHub</a>
+                                
+                            </div>    
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                 </div>
@@ -78,14 +113,78 @@
                 <div class="col-8">
                     <h1>Skills</h1>
                     <h3>Hard</h3>
-                    <ul>
-                        <li><i class="fab fa-html5"></i>HTML 5</li>
-                        <li><i class="fab fa-css3-alt"></i>CSS 3</li>
-                        <li><i class="fab fa-js-square"></i>Javascript</li>
-                        <li><svg fill="none" height="20" viewBox="204.925 153.577 757.617 860.543" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m962.541 407.983c0-14.237-3.034-27.074-9.336-37.811-6.068-10.736-15.171-19.605-27.307-26.607-100.829-58.117-201.891-116.233-302.72-174.35-27.308-15.638-53.449-15.171-80.523.7-40.145 23.574-241.336 138.873-301.086 173.65-24.741 14.237-36.644 36.177-36.644 64.652v351.033c0 14.004 3.034 26.374 8.869 37.111 6.069 10.97 15.405 20.306 27.775 27.541 59.984 34.777 260.941 149.843 301.086 173.65 27.074 15.868 53.448 16.568 80.523.7 100.829-58.35 201.891-116.233 302.72-174.35 12.603-7.235 21.706-16.338 27.774-27.541 5.835-10.737 8.869-23.107 8.869-37.111z" fill="#9a4993"/><path d="m584.667 582.333-371.34 213.794c6.069 10.97 15.405 20.306 27.775 27.542 59.984 34.776 260.941 149.842 301.086 173.649 27.074 15.872 53.449 16.572 80.523.7 100.829-58.35 201.891-116.233 302.72-174.349 12.603-7.236 21.706-16.338 27.774-27.542z" fill="#6a1577"/><path d="m474.735 645.584c21.707 37.811 62.318 63.252 108.765 63.252 46.913 0 87.758-25.674 109.231-63.952l-108.064-62.551z" fill="#6a1577"/><path d="m962.542 407.983c0-14.237-3.035-27.074-9.336-37.811l-368.539 212.161 369.005 213.795c5.835-10.737 8.87-23.107 8.87-37.111z" fill="#813084"/><g fill="#fff"><path d="m692.731 644.884c-21.472 38.044-62.317 63.952-109.231 63.952-46.68 0-87.291-25.441-108.764-63.252-10.503-18.438-16.572-39.444-16.572-62.084 0-69.32 56.016-125.336 125.336-125.336 46.213 0 86.592 25.207 108.298 62.551l109.464-63.018c-43.645-75.154-124.869-125.802-217.995-125.802-139.107 0-251.605 112.732-251.605 251.605 0 45.513 12.136 88.459 33.376 125.336 43.412 75.388 125.102 126.269 218.462 126.269 93.594 0 175.284-51.114 218.696-126.969zm138.406-120.901h-24.974v120.668h24.974zm55.316 0h-24.974v120.668h24.974z"/><path d="m906.759 544.289h-120.668v24.974h120.668zm0 55.082h-120.668v24.974h120.668z"/></g></svg>C#</li>
-                    </ul>
+                    <div class="col-6">
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/HTML5.png' alt='HTML 5 logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>HTML 5</p>
+                            </div>
+                        </div>
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/CSS3.png' alt='CSS 3 logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>CSS 3</p>
+                            </div>
+                        </div>       
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/JS.png' alt='Javascript logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>Javascript</p>
+                            </div>
+                        </div>
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/C.png' alt='C# logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>C#</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/GitHub.png' alt='GitHub logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>GitHub</p>
+                            </div>
+                        </div>
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/Git.png' alt='Git logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>Git</p>
+                            </div>
+                        </div>    
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/nodejs.png' alt='NodeJS logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>NodeJS</p>
+                            </div>
+                        </div> 
+                        <div class=skill>
+                            <div class=icon>
+                                <img src='/assets/Logos/Bootstrap.png' alt='Bootstrap logo'>
+                            </div>
+                            <div class=skill-name>
+                                <p>Bootstrap</p>
+                            </div>
+                        </div> 
+                    </div>
+
                     <h3>Soft</h3>
-                    <ul>
+                    <ul class="skills">
                         <li>Teamwork</li>
                         <li>Open-mindedness</li>
                         <li>Willingness to learn</li>
@@ -126,12 +225,12 @@
                         <div class="card mb-3">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <a href="https://codepen.io/ricardoblancobarbara/pen/XWddJNY" target="_blank"><img src="./assets/Buttercup.png" class="card-img" alt="Buttercup"></a>
+                                    <a href="https://codepen.io/ricardoblancobarbara/pen/XWddJNY" target="_blank"><img src="/assets/Projects/Buttercup.png" class="card-img" alt="Buttercup"></a>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">CSS Creature</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -140,12 +239,12 @@
                         <div class="card mb-3">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <a href="https://ricardoblancobarbara.github.io/register_page/" target="_blank"><img src="./assets/Register Page.png" class="card-img" alt="Register Page"></a>
+                                    <a href="https://ricardoblancobarbara.github.io/register_page/" target="_blank"><img src="/assets/Projects/Register Page.png" class="card-img" alt="Register Page"></a>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Register Page</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus. Proin aliquet luctus vulputate.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -154,12 +253,12 @@
                         <div class="card mb-3">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    <a href="https://ricardoblancobarbara.github.io/Static-Pet-Store-Front/" target="_blank"><img src="./assets/Static Store Front.png" class="card-img" alt="Pet Store Website"></a>
+                                    <a href="https://ricardoblancobarbara.github.io/Static-Pet-Store-Front/" target="_blank"><img src="/assets/Projects/Static Store Front.png" class="card-img" alt="Pet Store Website"></a>
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Static Pet's Store Front</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus. Proin aliquet luctus vulputate.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -174,7 +273,7 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus. Proin aliquet luctus vulputate.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
@@ -188,41 +287,69 @@
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus. Proin aliquet luctus vulputate.</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="..." class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>            
                     <h3>Red Badge</h3>
-                    <div class="card mb-3">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="..." class="card-img" alt="...">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="..." class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus. Proin aliquet luctus vulputate.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>                    
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="..." class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>                    
-                    <div class="card mb-3">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <img src="..." class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus. Aenean ac ante non sapien scelerisque dapibus. Donec sodales dui bibendum mauris congue sagittis. Fusce vitae fringilla ipsum, vitae malesuada mauris. Vivamus pharetra iaculis dolor et venenatis. Sed ac suscipit ante. Nulla malesuada turpis quis ex sodales lacinia eu eget turpis. Curabitur accumsan blandit finibus. Proin aliquet luctus vulputate.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="..." class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices justo sit amet odio elementum, in commodo nibh posuere. Aliquam facilisis consectetur odio quis finibus.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <div class="col">
                 </div>
@@ -253,6 +380,7 @@
 
     <footer>
         <p>Copyright 2020 &#169;</p>
+        <a href="#landing"><p>Top</p></a>
     </footer>
 
     <!-- Scripts -->

@@ -1,11 +1,12 @@
 /* COMMON STYLES */
 body {
     color: gray;
+
 }
 
 div.col-8 {
 border-top: 1px solid lightgrey;
-padding: 50px;
+padding: 70px 50px;
 }
 
 h1, h3 {
@@ -13,34 +14,45 @@ h1, h3 {
 }
 
 
-/* .container-fluid {
-    border: 1px solid blue;
-} */
-
-/* .col-6, .col-5 {
-    border: 1px solid green;
-} */
-
-/* .col {
-    border: 1px solid tomato;
-} */
-
-
-
-
-
-
-
 /* LANDING SECTION */
+#landing li a {
+    background-color:rgba(239,239,239,1);
+    border: 1px solid rgba(211,211,211,1);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(74,74,74,1);
+    margin: 10px;
+    text-decoration: none;
+    display: inline;
+}
 
+#landing div.col-8 {
+    background-color: orange;
+    /* padding: 30% 0;  */
+}
 
+#landing ul {
+    /* background-color: orange; */
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
+ul li {
+    display: inline;
+    /* text-align: center; */
+}
 
+nav {
+    /* display: inline; */
+    text-align: center;
+}
 
-
-
-
-
+header {
+    background-color: orange;
+}
 
 /* Navigation Bar */
 /* div {
@@ -48,46 +60,89 @@ h1, h3 {
     padding: 0;
 } */
 
-nav {
-    /* margin: 0;
-    padding: 0; */
-    border: 1px solid black;
-    background-color: orange;
-}
-
-#landing ul {
-    list-style-type: none;
+/* nav {
     margin: 0;
     padding: 0;
-}
+    border: 1px solid black;
+    background-color: orange;
+} */
 
-#landing li {
-    display: inline;
-
-}
 
 /* ABOUT ME SECTION */
+#about-me {
+    border: 1px solid lightgrey;
+    padding: 30px 10px;
+    text-align: justify;
+}
 
 #about col-8 {
+    display: inline;
     border: 1px solid lightgrey;
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
     border-radius: 5px;
 }
+.col-8 .col-6 {
+    /* border: 1px solid green; */
+    float: left;
+    padding: 10px;
 
+}
 
 
 
 
 /* SKILLS SECTION */
+.skills {
+    /* border: 2px solid blue; */
+}
 
+.skills li {
+    font-size: 20px;
 
+}
 
+.skill {
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
 
+.icon {
+    border: 3px solid gray;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
 
+.icon img {
+    height: 40px;
+    width: 40px;
+}
 
+.skill-name {
+    /* border: 2px solid red; */
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    position: relative;
+}
 
+.skill-name p {
+    display: inline;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
 
 /* EXPERIENCE SECTION */
@@ -106,13 +161,14 @@ nav {
 } */
 
 .mb-3{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 20px;
 }
-.col-md-4 {
+
+/* .col-md-4 {
     border: 1px solid red;
-    /* padding: 20px; */
-}
+    padding: 20px;
+} */
 
 img {
     width: auto;
@@ -120,18 +176,22 @@ img {
     max-width: 100%;
     max-height: 100%;
     /* padding: 20px; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* margin: 20px; */
+}
+
+button {
+    background-color: greenyellow;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 
 
 
 
-
-
 /* CONTACT ME SECTION */
-
 form input, form textarea {
     border: 1px solid lightgrey;
     margin-bottom: 20px;
@@ -143,7 +203,11 @@ form input, form textarea {
 /* FOOTER */
 footer {
     background-color: orange;
-    padding: 20px 0;
+    margin: 0;
+    padding: 3% 0;
+}
+
+footer p {
     text-align: center;
 }
 
